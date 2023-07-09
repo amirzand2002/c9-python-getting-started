@@ -4,3 +4,8 @@
 # Print 'first number + second number = answer' 
 # For example if someone enters 4 and 6 the output should read
 # 4 + 6 = 10
+a = float(input("enter first number:"))
+b = float(input("enter second number:"))
+
+addition = a + b
+print(addition)

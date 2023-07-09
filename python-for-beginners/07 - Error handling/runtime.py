@@ -1,5 +1,5 @@
 x = 42
-y = 0
+y = "aaa"
 try:
     print(x / y)
 except ZeroDivisionError as e:

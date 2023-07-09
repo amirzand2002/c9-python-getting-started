@@ -12,3 +12,14 @@
 # Charlie should be in room C
 # Khalid Haque should be in room OTHER
 # Xin Zhao should be in room Z
+name = input("enter your name :").lower()
+if name.startswith('a') or name.startswith('b'):
+    print("You can go to room AB")
+elif name.startswith('c'):
+    print("You can go to room CD")
+else:
+    lname = input("enter your last name: ").lower()
+    if lname.startswith('z'):
+        print("You can go to room Z")
+    else:
+        print("You can go to other rooms")
